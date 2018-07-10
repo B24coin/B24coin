@@ -1,0 +1,34 @@
+src/*.exe
+src/b24coin
+src/b24coind
+src/test_b24coin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.b24coin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+b24coin-qt
+B24coin-Qt.app
+
+# Unit-tests
+Makefile.test
+b24coin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

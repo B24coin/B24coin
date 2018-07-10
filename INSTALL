@@ -1,0 +1,9 @@
+Building B24coin
+
+See doc/readme-qt.rst for instructions on building B24coin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of B24coin.
+
+See doc/build-*.txt for instructions on building b24coind,
+the intended-for-services, no-graphical-interface, reference
+implementation of B24coin.
